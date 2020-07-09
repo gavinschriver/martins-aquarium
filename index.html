@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Martin's Aquarium</title>
-</head>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <img class="siteLogo" src="images/logo.png">
-        <h1 class="siteTitle">Martin's Aquarium</h1>
+      <img class="siteLogo" src="images/logo.png" />
+      <h1 class="siteTitle">Martin's Aquarium</h1>
     </header>
-</body>
+
+    <!--Main container-->
+    <main id="container">
+      <!--Div for lefthand content-->
+      <div class="content-left">
+        <article class="fishes">
+          <section class="fish card">
+            <div><img class="fish_image image--card" /></div>
+            <div class="fish_name"></div>
+            <div class="fish_species"></div>
+            <div class="fish_length"></div>
+            <div class="fish_location"></div>
+            <div class="fish_diet"></div>
+          </section>
+        </article>
+      <!--End lefthand content-->
+      </div>
+    <!-- End main content-->
+    </main>
+  </body>
 </html>
