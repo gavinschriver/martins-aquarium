@@ -10,13 +10,14 @@
   <body>
     <header class="header">
       <img class="siteLogo" src="images/logo.png" />
-      <h1 class="siteTitle">Martin's Aquarium</h1>
+      <h1 class="siteTitle">Welcome to Martin's Aquarium</h1>
     </header>
 
     <!--Main container-->
     <main id="container">
       <!--Div for lefthand content-->
       <div class="content-left">
+        <!-- Begin fishes article   -->
         <article class="fishes">
           <section class="fish card">
             <div><img class="fish_image image--card" /></div>
@@ -26,10 +27,38 @@
             <div class="fish_location"></div>
             <div class="fish_diet"></div>
           </section>
+          <!-- End fishes container-->
         </article>
-      <!--End lefthand content-->
+        <!-- Begin quotes article -->
+        <article class="quotes">
+          <section class="quote_card">
+            <div class="quote_text"></div>
+            <div class="quote_author"></div>
+          </section>
+        </article>
+        <!-- Begin locations article -->
+        <article class="locations">
+          <section class="location card">
+            <div>
+              <img class="location_image image--card" />
+            </div>
+            <div class="location_name"></div>
+            <div class="location_url"></div>
+            <div class="location_description"></div>
+          </section>
+        </article>
+        <!--End lefthand content-->
       </div>
-    <!-- End main content-->
+      <!-- Begin righthand content  -->
+      <div class="content--right">
+        <aside class="tips">
+          <section class="tip"></section>
+        </aside>
+        <!-- End righthand content -->
+      </div>
+      <!-- End main content-->
     </main>
+
+    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>
