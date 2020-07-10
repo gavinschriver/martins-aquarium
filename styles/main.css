@@ -1,5 +1,116 @@
-#fishtank {}
+@import "./locations.css";
+@import "./quotes.css";
+@import "./tips.css";
+@import "./fish.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Yellowtail&display=swap');
 
-.fish {}
 
-.fish__name {}
+body,
+button,
+input,
+select,
+textarea {
+    color: #505050;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Yellowtail", serif;
+    font-size:23px;
+}
+
+article, aside {
+    margin-top: 10px;
+}
+
+/* header components */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 3px solid grey;
+}
+
+.siteLogo {
+    height: 12rem;
+}
+
+.siteTitle {
+    font-size: 4rem;
+}
+
+/* main content  */
+
+#container {
+    display: flex;
+}
+
+.card {
+    padding: 3rem;
+}
+
+
+/* Modifier classes */
+.content--left {
+    margin-right: 3rem;
+    flex: 3;
+}
+
+.content--right {
+    margin-right: 3rem;
+    flex: 1;
+}
+
+.image--card {
+    margin-bottom: 2rem;
+}
+
+/* fish classes */
+.fish {
+}
+
+.fish_name {
+}
+
+.fish_species {
+}
+
+.fish_length {
+}
+
+.fish_location {
+}
+
+.fish_diet {
+}
+
+/* quote classes */
+.quote_card {
+}
+
+.quote_text {
+}
+
+.quote_author {
+}
+
+/* location classes  */
+.location {
+}
+
+.location_name {
+}
+
+.location_url {
+}
+
+.location_description {
+}
+
+/* tips classes */
+.tips {
+}
+.tip {
+}
