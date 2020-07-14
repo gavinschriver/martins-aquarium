@@ -1,3 +1,6 @@
+/* define a function that: accepts a fish object as an argument, then passes each of its properties to corresponding HTML <div> tags
+and then 'prints' (returns) all of those within one parent element (<section> tag) */
+
 export const makeAnHTMLFish = (fishObj) => {
     return `
     <section class="fish card">
@@ -10,3 +13,6 @@ export const makeAnHTMLFish = (fishObj) => {
     </section>
     `
 }
+
+/* SOLE purpose of this file/function is JUST to accept one object
+at a time and divvy up its data (as stored in key:value pairs) into HTML slots */
