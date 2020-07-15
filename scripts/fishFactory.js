@@ -15,4 +15,4 @@ export const makeAnHTMLFish = (fishObj) => {
 }
 
 /* SOLE purpose of this file/function is JUST to accept one object
-at a time and divvy up its data (as stored in key:value pairs) into HTML slots */
+at a time (that will be passed in to it somewhere else) and divvy up its data (as stored in key:value pairs) into HTML slots */

@@ -7,7 +7,7 @@ const fishCollection = [
         food: "Raw bayou sewage",
         species: "Red Snapper",
         length: "5 feet",
-        location: "Gult coast",
+        location: "Gulf coast",
         image: "./images/red_snapper.jpg"
     },
     {
