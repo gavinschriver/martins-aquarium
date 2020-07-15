@@ -1,4 +1,5 @@
 import {makeCopyOfLocationCollection} from "./LocationsDataProvider.js"
+import {makeAnHTMLLocation} from "./locationsFactory.js"
 
 import (makeCopyOfLocationCollection)
 
@@ -7,8 +8,13 @@ export const listOfLocations = () => {
 
     const locationArrayCopy = makeCopyOfLocationCollection()
 
+    let allLocationsAsHTML = ""
+    for (const currentLocationObj of locationArrayCopy) {
+        allLocationsAsHTML += makeAnHTMLLocation(currentLocationObj)
+    }
+
     whereToPutLocationsinHTML.innerHTML += `
         <article class="locations"> 
-        All locations will show up here?
+        ${allLocationsAsHTML}
     ` 
 }
