@@ -1,8 +1,6 @@
 import {makeCopyOfLocationCollection} from "./LocationsDataProvider.js"
 import {makeAnHTMLLocation} from "./locationsFactory.js"
 
-import (makeCopyOfLocationCollection)
-
 export const listOfLocations = () => {
     const whereToPutLocationsinHTML = document.querySelector(".content--left")
 
@@ -16,5 +14,6 @@ export const listOfLocations = () => {
     whereToPutLocationsinHTML.innerHTML += `
         <article class="locations"> 
         ${allLocationsAsHTML}
+        </article>
     ` 
 }
